@@ -1,0 +1,10 @@
+<h1>result</h1>
+<% result["Search"].forEach(function(movie){ %>
+        <% var poster = movie["Poster"]; %>
+       <li><%= movie["Title"]%> - <%=movie["Year"]%>
+           <img src= "<%=poster%>">
+       </li> 
+<% }); %>
+
+
+<a href="\">back to search</a>

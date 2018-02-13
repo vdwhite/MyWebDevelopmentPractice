@@ -1,0 +1,15 @@
+.ui .container .item, .header::first-letter, .description::first-letter{
+    text-transform: uppercase;
+}
+
+i.icon{
+    font-size: 2em;
+}
+
+.container.main{
+    margin-top: 5em;
+}
+
+#delete{
+    display: inline;
+}

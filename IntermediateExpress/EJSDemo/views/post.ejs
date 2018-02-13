@@ -1,0 +1,8 @@
+
+<%include partial/header%>
+<h1>Post page</h1>
+
+<% post.forEach(function(po){ %>
+    <li> <%= po.title %>- <%= po.author%> </li>
+<% }); %>
+<%include partial/footer%>
